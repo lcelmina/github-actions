@@ -6,19 +6,10 @@ jobs:
   run-shell-command:
     runs-on: ubuntu-latest
     steps:
-      - name: echo a string
+      - name: eccho a string
         run: echo "Hello World"
       - name: Multiline script
         run: |- 
          node -v
          npm -v
  
-  run-shell-command_1:
-    runs-on: ubuntu-latest
-    steps:
-      - name: echo a string
-        run: echo "Hello World"
-      - name: Multiline script
-        run: |- 
-         node -v
-         npm -v
